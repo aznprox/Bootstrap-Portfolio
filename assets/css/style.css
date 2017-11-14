@@ -1,0 +1,138 @@
+body{
+	background: #eeeeee;
+}
+
+li{
+	display: inline;
+}
+
+h1{
+	font: 10px;
+	font-weight: bold;
+	color: white;
+	background: teal;
+	text-align: center;
+	width: 500px;
+	padding: 5px;
+}
+.navheader{
+	color: white;
+	background: teal;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+	padding: 16px;
+	border-bottom: grey 2px solid;
+}
+
+.navbox{
+	margin-top: 30px;
+	text-align: right;
+	color: grey;
+	text-decoration: none;
+}
+
+a{
+	text-decoration: none;
+	color: grey;
+}
+
+
+h2{
+	color: #6BA4A6;
+	font-size: 30px;
+	font-weight: bold;
+
+}
+
+h3{
+	color: #6BA4A6;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.port{
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+.box{
+	padding: 30px;
+	border-style: border-box;
+	margin: 0 auto;
+	background: white;
+}
+
+.navbar{
+	background: #FCFFFD; 
+	border-style: none;
+}
+
+h4{
+	font-size: 15px;
+	padding: 10px;
+	text-align: center;
+	box-sizing: border-box;
+	background: grey;
+	border-top: #55A6A7 5px solid;
+	margin-top: 50px;
+}
+
+.propic{
+	margin-right: 30px;
+	float: left;
+	width: 40%;
+}
+
+.con{
+	margin: 0;
+	width: 75px;
+}
+
+.imagebox {
+  background: none;
+  padding: 0px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.imagebox .imagebox-desc {
+  background-color: teal;
+  bottom: 10px;
+  color: white;
+  font-size: 1.2em;
+  left: 0px;
+  padding: 10px 15px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+input[type=submit]{
+	background: #55A6A7;
+	color: white;
+	border-style: none;
+}
+
+form{	
+	color: black;
+}
+
+input[type=text], select, textarea{
+	margin-top: 10px;
+	margin-bottom: 14px;
+	padding: 10px;
+	border: 1px solid grey;
+	width: 100%;
+	resize: vertical;
+	box-sizing: border-box;
+}
+
+#msg{
+	height: 100px;
+}
